@@ -1,0 +1,166 @@
+{
+  "config": {
+    "n_agents": 10000,
+    "n_years": 10,
+    "year_range": "2026-2035",
+    "total_decisions_simulated": 2000000,
+    "runtime_seconds": 6.55
+  },
+  "category_counts": {
+    "A_wealth_free": 0,
+    "B_happy": 5419,
+    "C_surviving": 4194,
+    "D_anxious": 133,
+    "E_failed": 254
+  },
+  "category_percentages": {
+    "A_wealth_free": 0.0,
+    "B_happy": 54.19,
+    "C_surviving": 41.94,
+    "D_anxious": 1.33,
+    "E_failed": 2.54
+  },
+  "winner_loser_patterns": {
+    "winners_vs_losers": {
+      "delay_gratification": {
+        "winners": 0.506,
+        "losers": 0.508
+      },
+      "exercise_freq": {
+        "winners": 2.65,
+        "losers": 1.01
+      },
+      "sleep_hours": {
+        "winners": 7.11,
+        "losers": 6.46
+      },
+      "social_media_hours": {
+        "winners": 1.48,
+        "losers": 1.56
+      },
+      "learning_hours_daily": {
+        "winners": 0.31,
+        "losers": 0.28
+      },
+      "social_network_size": {
+        "winners": 15.0,
+        "losers": 13.7
+      },
+      "fatal_errors": {
+        "winners": 1.01,
+        "losers": 2.65
+      },
+      "skill_diversity": {
+        "winners": 2.44,
+        "losers": 2.33
+      },
+      "stress_resilience": {
+        "winners": 6.09,
+        "losers": 5.13
+      },
+      "info_literacy": {
+        "winners": 0.5,
+        "losers": 0.484
+      }
+    },
+    "winner_count": 5419,
+    "loser_count": 254,
+    "income_to_wealth_correlation": 0.88
+  },
+  "fatal_error_patterns_percent": {
+    "lifestyle_inflation": 20.9,
+    "no_emergency_fund_investing": 0.0,
+    "debt_spiral": 13.8,
+    "health_neglect": 44.5,
+    "emotional_spending": 5.9,
+    "panic_selling": 0.0,
+    "no_skill_backup": 36.2,
+    "social_media_impulse": 9.4
+  },
+  "nonlinear_curves": {
+    "learner_vs_nonlearner_income": {
+      "yearly_learner_avg": [
+        14408.49,
+        15848.45,
+        17376.57,
+        19017.63,
+        20870.09,
+        23056.86,
+        25607.65,
+        28461.85,
+        31653.97,
+        35075.68
+      ],
+      "yearly_nonlearner_avg": [
+        14085.05,
+        15146.3,
+        16213.99,
+        17239.23,
+        18390.69,
+        19699.87,
+        21183.14,
+        22810.62,
+        24558.69,
+        26425.55
+      ],
+      "learner_count": 3543,
+      "nonlearner_count": 3055
+    },
+    "exerciser_vs_sedentary_health": {
+      "yearly_exerciser_avg": [
+        0.792,
+        0.796,
+        0.8,
+        0.804,
+        0.807,
+        0.809,
+        0.811,
+        0.813,
+        0.814,
+        0.815
+      ],
+      "yearly_sedentary_avg": [
+        0.77,
+        0.752,
+        0.732,
+        0.712,
+        0.692,
+        0.672,
+        0.651,
+        0.629,
+        0.606,
+        0.583
+      ],
+      "exerciser_count": 5122,
+      "sedentary_count": 1445
+    },
+    "high_vs_low_saver_assets": {
+      "yearly_high_saver_avg": [
+        85898.67,
+        136532.9,
+        193687.91,
+        258543.22,
+        333262.58,
+        417167.43,
+        510673.02,
+        615442.53,
+        731994.15,
+        861360.53
+      ],
+      "yearly_low_saver_avg": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "high_saver_count": 9621,
+      "low_saver_count": 0
+    }
+  }
+}
